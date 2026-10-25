@@ -1,0 +1,31 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and credentials
+.env
+.env.*
+session-*
+*.cookie
+*.cookies
+
+# Model weights and embeddings
+*.npy
+*.faiss
+*.pt
+*.safetensors
+models/
+
+# Recipe datasets
+data/*.json
+data/*.csv
+
+# Downloaded HTML
+*.html
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
